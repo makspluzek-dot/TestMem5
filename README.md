@@ -1,40 +1,74 @@
 ﻿<div align="right"><i>I'll be back.<br>- The Terminator</i></div>
 
-## TestMem5 — PC RAM stress test
+## TestMem5 — PC RAM stress test
 
-This is an official website of **TestMem5** program, modified by **CoolCmd**.
+This repository contains the website for **TestMem5**, a RAM stress-testing utility maintained by **CoolCmd**.
 
-The original version [TestMem5 0.12 by Serj](http://testmem.tz.ru/testmem5.htm) has several annoying bugs and limitations, and is also very unfriendly. Unfortunately, Serj abandoned the development of the program. CoolCmd fixed most of the shortcomings. The fixed version of TestMem5 now lives on this site.
+The original [TestMem5 0.12 by Serj](http://testmem.tz.ru/testmem5.htm) had bugs, limitations, and a difficult interface. Serj abandoned the project, and CoolCmd fixed most of the issues. The improved version is now hosted here.
 
 > [!NOTE]
-> Some antiviruses, including built into Windows, may claim that this program contains a virus. This is a false positive. Stupid [heuristic analyzers](https://en.wikipedia.org/wiki/Heuristic_analysis) do not like programs written in Assembly language.
+> Some antivirus products, including Windows Defender, may flag the program as a false positive. This is usually caused by Assembly-based code and aggressive memory testing behavior.
 
 <img height="335" alt="Screenshot" src="Screenshot.png">
 
-## TestMem5 — программа для тестирования оперативной памяти ПК
+## Download
 
-Это официальный сайт программы **TestMem5**, которую дорабатывает **CoolCmd**.
+- Releases and changelog: https://github.com/CoolCmd/TestMem5/releases
+- Latest archive: https://github.com/CoolCmd/TestMem5/releases/latest/download/TestMem5.7z
 
-Исходная версия [TestMem5 0.12 автора Serj](http://testmem.tz.ru/testmem5.htm) имеет несколько досадных ошибок и ограничений, а также очень неудобна в использовании. К сожалению, Serj забросил разработку программы. CoolCmd исправил большинство недостатков. Доработанная им версия теперь живет на этом сайте.
+## Installation
+
+1. Download the latest release archive.
+2. Remove any older TestMem5 installation. The archive contains all required files.
+3. Optionally delete old `.cfg` files, since the archive includes current configurations.
+> [!NOTE]
+> Check the version number in the properties of `TM5.exe` and `TM5.dll`. If no version is shown, this is the obsolete 0.12 release.
+4. Extract the archive to any folder.
+> [!NOTE]
+> Some antivirus products may falsely report the archive as a virus. This is a false positive.
+5. Create a shortcut to `TM5.exe`.
+6. Run TestMem5.
+> [!IMPORTANT]
+> Running the program as Administrator is recommended.
+7. Open `Settings` and read the help text.
+
+## Contact
+
+Report bugs and suggestions:
+
+- Overclockers.ru forum: https://forums.overclockers.ru/viewtopic.php?f=47&t=366315
+- GitHub issues: https://github.com/CoolCmd/TestMem5/issues
+
+## TestMem5 — программа для тестирования оперативной памяти ПК
+
+Это репозиторий сайта для **TestMem5**, программы для стресс-тестирования ОЗУ, поддерживаемой **CoolCmd**.
+
+Оригинальная версия [TestMem5 0.12 автора Serj](http://testmem.tz.ru/testmem5.htm) содержала ошибки, ограничения и неудобный интерфейс. Serj прекратил разработку, а CoolCmd исправил большинство проблем. Обновлённая версия теперь размещена здесь.
+
+### Где взять свежую версию?
+
+- Список релизов: https://github.com/CoolCmd/TestMem5/releases
+- Архив последней версии: https://github.com/CoolCmd/TestMem5/releases/latest/download/TestMem5.7z
 
 ### Установка и запуск
 
-1. Скачайте архив с [наисвежайшей последне-крайней версией](https://github.com/CoolCmd/TestMem5/releases/latest/download/TestMem5.7z). А [вот здесь](https://github.com/CoolCmd/TestMem5/releases) находится список всех версий TestMem5 с описанием изменений.
-2. Если у вас есть другие версии TestMem5, то удалите их. Архив содержит все необходимые файлы. Вы также можете удалить свои файлы конфигураций TestMem5 (файлы с расширением cfg), потому что в архиве есть и они.
+1. Скачайте архив последней версии.
+2. Удалите старые версии TestMem5. Архив содержит все нужные файлы.
+3. При необходимости удалите старые `.cfg` файлы — архив уже включает актуальные конфигурации.
 > [!NOTE]
-> Номер версии TestMem5 можно узнать, заглянув в Проводнике в свойства файлов `TM5.exe` и `TM5.dll`. Если там нет номера версии, то это устаревшая версия 0.12.
-3. Распакуйте содержимое архива в любую папку.
+> Номер версии можно узнать в свойствах `TM5.exe` и `TM5.dll`. Если номера нет, это устаревшая версия 0.12.
+4. Распакуйте архив в любую папку.
 > [!NOTE]
-> Некоторые антивирусы, включая встроенный в Windows, могут заявить, что в архиве есть вирус. На самом деле в архиве вирусов нет, просто тупые [эвристические анализаторы](https://ru.wikipedia.org/wiki/%D0%AD%D0%B2%D1%80%D0%B8%D1%81%D1%82%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%BE%D0%B5_%D1%81%D0%BA%D0%B0%D0%BD%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5) не любят программы, написанные на Ассемблере.
-4. Создайте ярлык на файл `TM5.exe`.
-5. Запустите TestMem5.
+> Некоторые антивирусы могут ошибочно определить архив как вирус. Это ложное срабатывание.
+5. Создайте ярлык на `TM5.exe`.
+6. Запустите TestMem5.
 > [!IMPORTANT]
-> Рекомендую запускать программу от имени Администратора.
-6. Нажмите кнопку `Настройки` и прочтите справку. Тестирование памяти — не такая простая вещь, как вам кажется.
+> Рекомендуется запускать программу от имени администратора.
+7. Откройте `Настройки` и прочитайте справку.
 
 ### Как связаться с автором
 
-Обсуждение TestMem5 ведётся на [форуме Overclockers.ru](https://forums.overclockers.ru/viewtopic.php?f=47&t=366315) и на [сайте GitHub](https://github.com/CoolCmd/TestMem5/issues). Сообщайте об ошибках и предлагайте свои полезные идеи.
+Обсуждение TestMem5 ведётся на [форуме Overclockers.ru](https://forums.overclockers.ru/viewtopic.php?f=47&t=366315) и на [GitHub](https://github.com/CoolCmd/TestMem5/issues). Сообщайте об ошибках и предлагайте свои идеи.
 
 ### Отличия от версии 0.12
 
